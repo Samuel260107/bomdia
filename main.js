@@ -1,7 +1,7 @@
 let hora = new Date().getHours();
 let saudacao = "";
 
-if(hora >= 5 && hora < 12){
+if(hora >= 4 && hora < 12){
     saudacao = "Bom dia";
 }else if(hora >= 12 && hora <= 18){
     saudacao = "Boa tarde";
